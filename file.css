@@ -1,0 +1,245 @@
+@media(min-width: 600px){
+  .container{
+    max-width: 1500px;
+  }
+}
+
+@media(min-width: 600px){
+  ul.marklist li{
+    max-width: 1200px;
+  }
+}
+
+@media(min-width: 600px){
+  ul.socnetwork li{
+    max-width: 1200px;
+  }
+}
+
+.image {
+  position:relative;
+  margin:-10px;
+}
+.image nav{
+  position:absolute;
+  top:0;
+  width:100%;
+}
+
+.marklist{
+    padding-left:  900px;
+}
+
+ul.marklist li{
+  display:inline;
+  margin: 12px;
+  font-size: 18px;
+  font-family: 'Russo One', sans-serif;
+}
+
+ul.marklist a{
+  color: white;
+  text-decoration: none;
+}
+
+.marklist a:hover{
+  transition: 0.5s;
+  color: #13baed;
+}
+
+.zagolovok {
+font-family: 'Roboto', sans-serif;
+font-size: 230%;
+font-weight: bold;
+letter-spacing: normal;
+text-align: center;
+}
+
+.text{
+  font-family: 'Open Sans', sans-serif;
+  padding-left: 30px;
+  padding-right: 30px;
+  word-wrap: normal;
+}
+
+.list1 li:nth-child(n){
+  padding-left: 10px;
+}
+
+.list2 li{
+  list-style:none;
+}
+
+.list2 li:before{
+  content:"▶ ";
+}
+
+.othersites {
+  color:#13baed;
+}
+
+.othersites:hover{
+  transition: 0.5s;
+  color:#03fcc2;
+  cursor:help;
+}
+
+.benefits {
+  margin-left:100px;
+  margin-right: 150px;
+  width:85%;
+  table-layout: fixed;
+}
+
+.benefits th{
+  width:85%;
+}
+
+.text1{
+    font-family: 'Open Sans', sans-serif;
+    width:250px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align:center;
+    vertical-align: top;
+    word-wrap: normal;
+}
+
+.text1 strong{
+  font-weight:bolder;
+}
+
+
+.countries1{
+  padding-left:250px;
+}
+
+.countries2{
+  padding-left: 30px;
+  padding-right: 300px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  font-family: 'Russo One', sans-serif;
+}
+
+.countries2 p{
+  font-family: 'Open Sans', sans-serif;
+  text-align:justify;
+}
+.send{
+  color: black;
+}
+
+.send:hover{
+  cursor:alias;
+  color: blue;
+  transition: 0.5s;
+}
+
+.opros{
+  font-family: 'Open Sans', sans-serif;
+  padding-left: 30px;
+}
+
+.opros strong{
+  font-family: 'Russo One', sans-serif;
+  letter-spacing: 1px;
+  font-size: 16px;
+}
+
+
+.button{
+ color: #fff;
+ font-weight: bold;
+ text-transorm: uppercase;
+ font-size:18px;
+ border: none;
+ padding: 8px 18px;
+ cursor:pointer;
+ background:#0080ff;
+}
+
+.button:hover{
+    transition: 0.5s;
+  background: #09ff00;
+  transition:all .3s linear;
+}
+
+.pole{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.pole p{
+  clear: both;
+  text-align: right;
+  line-height: 25px;
+  padding-right: 50px;
+}
+
+label{
+  float:left;
+  padding-right: 10px;
+}
+
+.otstyp1{
+  padding-top: 30px;
+}
+
+.formsvaz{
+  margin-left: 470px;
+  margin-right: 470px;
+  padding-left: 30px;
+  border-style:groove;
+  border-width: 7px;
+  border-radius: 10px;
+  border-color: #d9d9d9;
+}
+
+.agree{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.scroll{
+  width:450px;
+  height:100px;
+  overflow-y: scroll;
+  font-family: 'Open Sans', sans-serif;
+}
+.otstyp2{
+  padding-top: 100px;
+}
+
+.footer {
+  position: relative;
+  margin: -10px;
+  margin-top: 90px;
+}
+
+.footer nav{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #00d0ff;
+}
+
+.socnetwork{
+  padding-left: 640px;
+}
+
+ul.socnetwork li{
+  display: inline;
+}
+
+.tel1{
+  padding-left: 670px;
+  color:white;
+  font-weight: 900;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.tel2{
+  padding-left: 695px;
+  color:white;
+  font-weight: 900;
+  font-family: 'Open Sans', sans-serif;
+}
